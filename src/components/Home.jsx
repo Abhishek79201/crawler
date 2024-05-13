@@ -195,7 +195,7 @@ console.log(data);
 const Home = () => (
   <>
     <p className="text-5xl font-bold py-20 px-10">Crawl Dashboard</p>
-    <Table loading columns={columns} dataSource={data} />
+    <Table columns={columns} dataSource={data} />
   </>
 );
 export default Home;
